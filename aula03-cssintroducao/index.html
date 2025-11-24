@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introdução</title>
+    <!-- External CSS, link externo -->
+    <!-- rel = relação / stylesheet = folha de estilo -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Internal quando o css está no mesmo arquivo -->
+     <style>
+        p{
+        color: purple;
+        font-size: 40px;
+        }
+     </style>
+</head>
+<body>
+    <!-- Inline quando o css vai na linha HTML -->
+    <p style="color:green;">Este é um parágrafo verde</p>
+    <p style="color:green;">Este é outro parágrafo verde</p>
+
+    <h1 style="color:blue; font-size: 50px;">Mudar cor do título Inline</h1>
+
+    <!-- Internal CSS -->
+    <p>Esse é um parágrafo com estilo Internal</p>
+
+    <!-- External CSS -->
+    <h3>Título do External</h3>
+
+    <!-- Classe -->
+     <p class="Paragrafo">Esse é um parágrafo com class</p>
+     <p class="Paragrafo">Esse é novo parágrafo</p>
+     <p class="Paragrafo">Esse é último parágrafo com class</p>
+
+    <!-- id -->
+    <h2 id="titulo-com-id">Título com id</h2>
+
+    <!-- Regra de ordem -->
+     <h3 id="id-titulo" class="class-titulo">Título 1</h3>
+     <h3 class="class-titulo">Titulo 2</h3>
+     <h3>Título 3</h3>
+
+
+</body>
+</html>
