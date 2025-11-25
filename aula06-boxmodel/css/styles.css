@@ -99,7 +99,7 @@
 
 /* Borda Arredondada */
 .paragrafo-arredondado{
-    border: 5px solid red;
+    border: 3px solid red;
     background-color: burlywood;
     color: white;
     padding: 20px;
