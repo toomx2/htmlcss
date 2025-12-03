@@ -1,0 +1,38 @@
+/* Media query */
+h1 {
+    color: orangered;
+}
+
+/* min-width ou tecnica mobile first */
+p {
+    background-color: aquamarine;
+    color: black;
+}
+
+/* landscape ocultado */
+h2{
+    display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color: greenyellow;
+    }
+
+}
+
+/* min-width ou tecnica mobile first */
+@media screen and (min-width: 800px) {
+    p {
+        background-color: black;
+        color: yellow;
+    }
+}
+
+/* landscape */
+@media screen and (orientation: landscape) {
+    h2{
+        display: block;
+    }
+}
